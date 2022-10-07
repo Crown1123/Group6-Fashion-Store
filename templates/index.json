@@ -21,8 +21,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Brown_Minimalist_Casual_Fashion_Collection_-_Presentation.png",
         "image_overlay_opacity": 40,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
+        "image_height": "small",
+        "adapt_height_first_image": true,
         "desktop_content_position": "bottom-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -35,13 +35,6 @@
     "rich_text": {
       "type": "rich-text",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
         "text": {
           "type": "text",
           "settings": {
@@ -50,7 +43,6 @@
         }
       },
       "block_order": [
-        "heading",
         "text"
       ],
       "settings": {
@@ -58,8 +50,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 28,
+        "padding_bottom": 24
       }
     },
     "featured_collection": {
